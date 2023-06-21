@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">GoFit Mobile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_forgot_password">ForgotPassword</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_informasi_umum">InformasiUmum</string>
+    <string name="title_activity_infomrasi_umum">InfomrasiUmum</string>
+    <string name="title_activity_booking_gym">BookingGymActivity</string>
+    <string name="title_activity_booking_gym_adapter">BookingGymAdapter</string>
+    <string name="title_activity_booking_kelas">BookingKelasActivity</string>
+    <string name="title_activity_booking_kelas_adapter">BookingKelasAdapter</string>
+    <string name="title_activity_add_booking_gym">AddBookingGym</string>
+    <string name="title_activity_presensi_instruktur">PresensiInstrukturActivity</string>
+    <string name="title_activity_presensi_instruktur_adapter">PresensiInstrukturAdapter</string>
+    <string name="title_activity_add_edit_presensi_instruktur">AddEditPresensiInstruktur</string>
+    <string name="title_activity_add_booking_kelas">AddBookingKelas</string>
+    <string name="title_activity_add_booking_kelas_adapter">AddBookingKelasAdapter</string>
+    <string name="title_activity_jadwal_harian">JadwalHarianActivity</string>
+    <string name="title_activity_add_izin_instruktur_adapter">AddIzinInstrukturAdapter</string>
+    <string name="title_activity_add_izin_instruktur">AddIzinInstruktur</string>
+    <string name="title_activity_histori_instruktur">HistoriInstruktur</string>
+    <string name="title_activity_histroi_instruktur_adapter">HistroiInstrukturAdapter</string>
+    <string name="title_activity_histrori_aktivitas_adapter">HistroriAktivitasAdapter</string>
+    <string name="title_activity_histori_member">HistoriMember</string>
+    <string name="title_activity_histori_member_adapter">HistoriMemberAdapter</string>
+    <string name="title_activity_jadwal_instruktur">JadwalInstrukturActivity</string>
+    <string name="title_activity_jadwal_instruktur_adapter">JadwalInstrukturAdapter</string>
+    <string name="title_activity_konfirmasi_presensi_member">KonfirmasiPresensiMemberActivity
+    </string>
+    <string name="title_activity_konfirmasi_presensi_member_adapter">
+        KonfirmasiPresensiMemberAdapter
+    </string>
+</resources>

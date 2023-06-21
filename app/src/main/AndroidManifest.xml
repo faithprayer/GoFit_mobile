@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.P3l_mobile_10838"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".KonfirmasiPresensiMemberAdapter"
+            android:exported="false"
+            android:label="@string/title_activity_konfirmasi_presensi_member_adapter"
+            android:theme="@style/Theme.P3l_mobile_10838.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".PresensiMember.KonfirmasiPresensiMemberActivity"
+            android:exported="false"
+            android:label="@string/title_activity_konfirmasi_presensi_member"
+            android:theme="@style/Theme.P3l_mobile_10838.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".JadwalInstrukturAdapter"
+            android:exported="false"
+            android:label="@string/title_activity_jadwal_instruktur_adapter"
+            android:theme="@style/Theme.P3l_mobile_10838.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".PresensiMember.JadwalInstrukturActivity"
+            android:exported="false"
+            android:label="@string/title_activity_jadwal_instruktur"
+            android:theme="@style/Theme.P3l_mobile_10838.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".HistoriMemberAdapter"
+            android:exported="false"
+            android:label="@string/title_activity_histori_member_adapter"
+            android:theme="@style/Theme.P3l_mobile_10838.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Member.HistoriMember"
+            android:exported="false"
+            android:label="@string/title_activity_histori_member"
+            android:theme="@style/Theme.P3l_mobile_10838.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".HistroriAktivitasAdapter"
+            android:exported="false"
+            android:label="@string/title_activity_histrori_aktivitas_adapter"
+            android:theme="@style/Theme.P3l_mobile_10838.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Instruktur.HistoriInstruktur"
+            android:exported="false"
+            android:label="@string/title_activity_histori_instruktur"
+            android:theme="@style/Theme.P3l_mobile_10838.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".IzinInstruktur.AddIzinInstruktur"
+            android:exported="false"
+            android:label="@string/title_activity_add_izin_instruktur"
+            android:theme="@style/Theme.P3l_mobile_10838.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AddIzinInstrukturAdapter"
+            android:exported="false"
+            android:label="@string/title_activity_add_izin_instruktur_adapter"
+            android:theme="@style/Theme.P3l_mobile_10838.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BookingKelas.AddBookingKelasAdapter"
+            android:exported="false"
+            android:label="@string/title_activity_add_booking_kelas_adapter"
+            android:theme="@style/Theme.P3l_mobile_10838.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BookingKelas.AddBookingKelas"
+            android:exported="false"
+            android:label="@string/title_activity_add_booking_kelas"
+            android:theme="@style/Theme.P3l_mobile_10838.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".PresensiInstruktur.AddEditPresensiInstruktur"
+            android:exported="false"
+            android:label="@string/title_activity_add_edit_presensi_instruktur"
+            android:theme="@style/Theme.P3l_mobile_10838.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".PresensiInstruktur.PresensiInstrukturAdapter"
+            android:exported="false"
+            android:label="@string/title_activity_presensi_instruktur_adapter"
+            android:theme="@style/Theme.P3l_mobile_10838.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".PresensiInstruktur.PresensiInstrukturActivity"
+            android:exported="false"
+            android:label="@string/title_activity_presensi_instruktur"
+            android:theme="@style/Theme.P3l_mobile_10838.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AddBookingGym"
+            android:exported="false"
+            android:label="@string/title_activity_add_booking_gym"
+            android:theme="@style/Theme.P3l_mobile_10838.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BookingGymAdapter"
+            android:exported="false"
+            android:label="@string/title_activity_booking_gym_adapter"
+            android:theme="@style/Theme.P3l_mobile_10838.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BookingGymActivity"
+            android:exported="false"
+            android:label="@string/title_activity_booking_gym"
+            android:theme="@style/Theme.P3l_mobile_10838.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BookingKelas.BookingKelasAdapter"
+            android:exported="false"
+            android:label="@string/title_activity_booking_kelas_adapter"
+            android:theme="@style/Theme.P3l_mobile_10838.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".BookingKelas.BookingKelasActivity"
+            android:exported="false"
+            android:label="@string/title_activity_booking_kelas"
+            android:theme="@style/Theme.P3l_mobile_10838.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".InformasiUmumActivity"
+            android:exported="false"
+            android:label="@string/title_activity_informasi_umum"
+            android:theme="@style/Theme.P3l_mobile_10838.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="false"
+            android:label="@string/title_activity_forgot_password"
+            android:theme="@style/Theme.P3l_mobile_10838.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".IzinInstruktur.IzinInstrukturActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

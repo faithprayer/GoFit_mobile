@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_konfirmasiPresensiMemberAdapter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="25dp"
+    app:cardElevation="10dp"
+    android:backgroundTint="@color/main">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/item_konfirmasiPresensiMemberAdapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/tv_kodeBooking_konfirmasiPresensiMemberAdapter"
+            style="@style/TextAppearance.MaterialComponents.Subtitle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:textSize="25sp"
+            android:maxLines="2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/white"
+            android:text="Kode Booking"/>
+
+        <TextView
+            android:id="@+id/tv_tanggalbookingkelas_konfirmasiPresensiMemberAdapter"
+            style="@style/TextAppearance.MaterialComponents.Body2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:textSize="15sp"
+            android:maxLines="2"
+            android:text="Tanggal Booking"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@id/tv_kodeBooking_konfirmasiPresensiMemberAdapter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_tanggalmelakukanbookingKelas_konfirmasiPresensiMemberAdapter"
+            style="@style/TextAppearance.MaterialComponents.Body2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:textSize="15sp"
+            android:maxLines="2"
+            android:text="Tanggal Melakukan Booking"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@id/tv_tanggalbookingkelas_konfirmasiPresensiMemberAdapter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/tv_statuskonfirmasipresensi_konfirmasiPresensiMemberAdapter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.MaterialComponents.Caption"
+            tools:text="status konfirmasi - Waktu Konfirmasi"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/layout_status" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layout_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tanggalmelakukanbookingKelas_konfirmasiPresensiMemberAdapter"
+            android:hint="Status"
+            tools:ignore="MissingConstraints"
+            app:boxStrokeWidthFocused="1dp"
+            app:boxStrokeColor="@color/white">
+
+            <AutoCompleteTextView
+                android:id="@+id/ed_status"
+                android:layout_width="150dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageButton
+            android:id="@+id/icon_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_check_24"
+            android:padding="10dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/main"
+            app:layout_constraintStart_toEndOf="@+id/layout_status"
+            app:layout_constraintTop_toBottomOf="@id/tv_tanggalmelakukanbookingKelas_konfirmasiPresensiMemberAdapter"
+            app:tint="#00ff00"
+            tools:ignore="MissingConstraints" />
+
+        <!--        <TextView-->
+<!--            android:id="@+id/tv_hari_jadwal_jadwalinstruktur"-->
+<!--            style="@style/TextAppearance.MaterialComponents.Body2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="2dp"-->
+<!--            android:ellipsize="end"-->
+<!--            android:maxLines="1"-->
+<!--            android:text="Hari Jadwal"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="15sp"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/tv_keterangan_jadwal_jadwalinstruktur"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_tanggal_jadwal_harian_jadwalinstruktur"-->
+<!--            style="@style/TextAppearance.MaterialComponents.Body2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="2dp"-->
+<!--            android:ellipsize="end"-->
+<!--            android:maxLines="1"-->
+<!--            android:text="Tanggal Kelas"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="15sp"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/tv_hari_jadwal_jadwalinstruktur"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"/>-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
